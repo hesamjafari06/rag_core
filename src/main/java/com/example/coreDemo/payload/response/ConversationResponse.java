@@ -1,0 +1,14 @@
+package com.example.coreDemo.payload.response;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+public class ConversationResponse {
+    private String conversationId;
+    private String name;
+    private String createdAt;
+}
